@@ -1,6 +1,7 @@
 #mainbody {
     background-color: #946eeb;
     font-family: 'Tahoma', sans-serif;
+    cursor: url('https://kiunlo.neocities.org/cursors/DC/batsymbol3_cursor.png'), auto;
 }
 .container {
     max-width: 1000px;
@@ -70,6 +71,7 @@ a:link, a:visited {
 
 body{
     background:white;
+    
   }
   /* customizable snowflake styling */
   .snowflake {
