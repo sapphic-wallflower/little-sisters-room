@@ -17,35 +17,14 @@
     <meta property="og:image" content="xxxx">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
+	<link rel="stylesheet" href="styles.css">
 
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            overflow-y: hidden;
-        }
 
-        img {
-            margin-bottom: 20px;
-            cursor: pointer;
-            max-width: 250px;
-            max-height: 250px;
-        }
-
-        a:link, a:visited {
-            color: #2e5bff
-        }
-    </style>
 	
 </head>
 
-<body>
-    <img id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
+<body id=fourbody>
+   <img class="four-image" id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
     <h1>You somehow got lost under the bed...</h1>
     <h2 id="rescue-text">Luckily, [blank] was here to save you.</h2>
     <h3 id="click-text">Click on [blank]'s Cutie Mark to return home.</h3>
