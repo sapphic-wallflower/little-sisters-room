@@ -3,13 +3,11 @@ body {
     font-family: 'Tahoma', sans-serif;
 }
 .container {
-    width: 80%;
-    max-width: 1000px;
+    width: 1000px;
     padding: 20px;
-    margin: auto;
+    margin: 30px auto;
     display: flex;
     flex-direction: column;
-    overflow: hidden;
     background-color: #ffccff;
     box-shadow: 0px 0px 10px #ff69b4;
     border-radius: 15px;
