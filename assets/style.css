@@ -3,19 +3,31 @@ body {
     font-family: 'Tahoma', sans-serif;
 }
 .container {
+    width: 80%;
     max-width: 1000px;
     padding: 20px;
-    margin: 20px auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     background-color: #ffccff;
     box-shadow: 0px 0px 10px #ff69b4;
     border-radius: 15px;
 }
-.banner img {
+.banner {
+    width: 100%;
+    height: auto;
+    display: block;
     margin-bottom: 5px;
+}
+.banner img {
+    width: 100%;
+    height: auto;
     border-radius: 15px;
 }
 .content-area {
     display: flex;
+    width: 100%;
     gap: 5px;
 }
 .text-box {
@@ -26,7 +38,8 @@ body {
     border-radius: 10px;
 }
 .profile-pic-box {
-    min-width: 15%;
+    width: 15%;
+    min-width: 150px;
     height: 200px;
     background-color: #cea6e9;
     padding: 10px;
