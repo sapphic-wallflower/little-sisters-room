@@ -17,35 +17,14 @@
     <meta property="og:image" content="xxxx">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
+	<link rel="stylesheet" href="styles.css">
 
-    <style>
-        body {
-            background-color: black;
-            color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            height: 100vh;
-            overflow-y: hidden;
-        }
 
-        img {
-            margin-bottom: 20px;
-            cursor: pointer;
-            max-width: 250px;
-            max-height: 250px;
-        }
-
-        a:link, a:visited {
-            color: #2e5bff
-        }
-    </style>
 	
 </head>
 
-<body>
-    <img id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
+<body id=fourbody>
+   <img class="four-image" id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
     <h1>You somehow got lost under the bed...</h1>
     <h2 id="rescue-text">Luckily, [blank] was here to save you.</h2>
     <h3 id="click-text">Click on [blank]'s Cutie Mark to return home.</h3>
@@ -60,71 +39,71 @@
 		const characters = [
 			{
 				name: 'Apple Bloom',
-				imgSrc: 'https://files.catbox.moe/jc5t6y.png'
+				imgSrc: 'Media/Apple_Bloom.png'
 			},
 			{
 				name: 'Applejack',
-				imgSrc: 'https://files.catbox.moe/k8zdb6.png'
+				imgSrc: 'Media/Applejack.png'
 			},
 			{
 				name: 'Derpy Hooves',
-				imgSrc: 'https://files.catbox.moe/5bq104.png'
+				imgSrc: 'Media/Derpy_Hooves.png'
 			},
 			{
 				name: 'Fluttershy',
-				imgSrc: 'https://files.catbox.moe/fdmnsz.png'
+				imgSrc: 'Media/Fluttershy.png'
 			},
 			{
 				name: 'Pinkie Pie',
-				imgSrc: 'https://files.catbox.moe/xzbx52.png'
+				imgSrc: 'Media/Pinkie_Pie.png'
 			},
 			{
 				name: 'Princess Cadence',
-				imgSrc: 'https://files.catbox.moe/ts7wxu.png'
+				imgSrc: 'Media/Princess_Cadence.png'
 			},
 			{
 				name: 'Princess Celestia',
-				imgSrc: 'https://files.catbox.moe/qpr43f.png'
+				imgSrc: 'Media/Princess_Celestia.png'
 			},
 			{
 				name: 'Princess Luna',
-				imgSrc: 'https://files.catbox.moe/062ql7.png'
+				imgSrc: 'Media/Princess_Luna.png'
 			},
 			{
 				name: 'Rainbow Dash',
-				imgSrc: 'https://files.catbox.moe/7jp2tp.png'
+				imgSrc: 'Media/Rainbow_Dash.png'
 			},
 			{
 				name: 'Rarity',
-				imgSrc: 'https://files.catbox.moe/cggkru.png'
+				imgSrc: 'Media/Rarity.png'
 			},
 			{
 				name: 'Scootaloo',
-				imgSrc: 'https://files.catbox.moe/hxvmuv.png'
+				imgSrc: 'Media/Scootaloo.png'
 			},
 			{
 				name: 'Shining Armour',
-				imgSrc: 'https://files.catbox.moe/iwzsua.png'
+				imgSrc: 'Media/Shining_Armor.png'
 			},
 			{
 				name: 'Starlight Glimmer',
-				imgSrc: 'https://files.catbox.moe/57rmbh.png'
+				imgSrc: 'Media/Starlight_Glimmer.png'
 			},
 			{
 				name: 'Sunset Shimmer',
-				imgSrc: 'https://files.catbox.moe/jevu5f.png'
+				imgSrc: 'Media/Sunset_Shimmer.png'
 			},
 			{
 				name: 'Sweetie Belle',
-				imgSrc: 'https://files.catbox.moe/5l2coh.png'
+				imgSrc: 'Media/Sweetie_Belle.png'
 			},
 			{
 				name: 'Trixie Lulamoon',
-				imgSrc: 'https://files.catbox.moe/iqdj50.png'
+				imgSrc: 'Media/Trixie_Lulamoon.png'
 			},
 			{
 				name: 'Twilight Sparkle',
-				imgSrc: 'https://files.catbox.moe/1irvqs.png'
+				imgSrc: 'Media/Twilight_Sparkle.png'
 			},
 		];
 
