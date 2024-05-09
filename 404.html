@@ -17,14 +17,32 @@
     <meta property="og:image" content="xxxx">
     <meta property="og:image:width" content="500">
     <meta property="og:image:height" content="500">
-	<link rel="stylesheet" href="styles.css">
 
-
-	
+<style>
+     body {
+        background-color: black;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        overflow-y: hidden;
+    }
+    img {
+        margin-bottom: 20px;
+        cursor: pointer;
+        max-width: 250px;
+        max-height: 250px;
+    }
+	a:link, a:visited {
+        color: #2e5bff
+    }
+</style>
 </head>
 
-<body id=fourbody>
-   <img class="four-image" id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
+<body>
+   <img id="character-image" src="" alt="Character Cutie Mark" onclick="goHome()">
     <h1>You somehow got lost under the bed...</h1>
     <h2 id="rescue-text">Luckily, [blank] was here to save you.</h2>
     <h3 id="click-text">Click on [blank]'s Cutie Mark to return home.</h3>
@@ -39,71 +57,71 @@
 		const characters = [
 			{
 				name: 'Apple Bloom',
-				imgSrc: 'Media/Apple_Bloom.png'
+				imgSrc: './assets/Apple_Bloom.png'
 			},
 			{
 				name: 'Applejack',
-				imgSrc: 'Media/Applejack.png'
+				imgSrc: './assets/Applejack.png'
 			},
 			{
 				name: 'Derpy Hooves',
-				imgSrc: 'Media/Derpy_Hooves.png'
+				imgSrc: './assets/Derpy_Hooves.png'
 			},
 			{
 				name: 'Fluttershy',
-				imgSrc: 'Media/Fluttershy.png'
+				imgSrc: './assets/Fluttershy.png'
 			},
 			{
 				name: 'Pinkie Pie',
-				imgSrc: 'Media/Pinkie_Pie.png'
+				imgSrc: './assets/Pinkie_Pie.png'
 			},
 			{
 				name: 'Princess Cadence',
-				imgSrc: 'Media/Princess_Cadence.png'
+				imgSrc: './assets/Princess_Cadence.png'
 			},
 			{
 				name: 'Princess Celestia',
-				imgSrc: 'Media/Princess_Celestia.png'
+				imgSrc: './assets/Princess_Celestia.png'
 			},
 			{
 				name: 'Princess Luna',
-				imgSrc: 'Media/Princess_Luna.png'
+				imgSrc: './assets/Princess_Luna.png'
 			},
 			{
 				name: 'Rainbow Dash',
-				imgSrc: 'Media/Rainbow_Dash.png'
+				imgSrc: './assets/Rainbow_Dash.png'
 			},
 			{
 				name: 'Rarity',
-				imgSrc: 'Media/Rarity.png'
+				imgSrc: './assets/Rarity.png'
 			},
 			{
 				name: 'Scootaloo',
-				imgSrc: 'Media/Scootaloo.png'
+				imgSrc: './assets/Scootaloo.png'
 			},
 			{
 				name: 'Shining Armour',
-				imgSrc: 'Media/Shining_Armor.png'
+				imgSrc: './assets/Shining_Armor.png'
 			},
 			{
 				name: 'Starlight Glimmer',
-				imgSrc: 'Media/Starlight_Glimmer.png'
+				imgSrc: './assets/Starlight_Glimmer.png'
 			},
 			{
 				name: 'Sunset Shimmer',
-				imgSrc: 'Media/Sunset_Shimmer.png'
+				imgSrc: './assets/Sunset_Shimmer.png'
 			},
 			{
 				name: 'Sweetie Belle',
-				imgSrc: 'Media/Sweetie_Belle.png'
+				imgSrc: './assets/Sweetie_Belle.png'
 			},
 			{
 				name: 'Trixie Lulamoon',
-				imgSrc: 'Media/Trixie_Lulamoon.png'
+				imgSrc: './assets/Trixie_Lulamoon.png'
 			},
 			{
 				name: 'Twilight Sparkle',
-				imgSrc: 'Media/Twilight_Sparkle.png'
+				imgSrc: './assets/Twilight_Sparkle.png'
 			},
 		];
 
