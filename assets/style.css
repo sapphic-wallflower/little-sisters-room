@@ -1,58 +1,75 @@
 body {
-    background-color: #946eeb;
-    font-family: 'Tahoma', sans-serif;
+    background-color: #946eeb; /* Set the page background to purple */
+    font-family: 'Tahoma', sans-serif; /* Set font family to Tahoma */
+    margin: 0; /* No margin for the body */
+    padding: 0; /* No padding for the body */
+    display: flex; /* Use flexbox for layout */
+    justify-content: center; /* Center the container horizontally */
 }
+
 .container {
-    width: 1000px;
-    padding: 20px;
-    margin: 30px auto;
-    display: flex;
-    flex-direction: column;
-    background-color: #ffccff;
-    box-shadow: 0px 0px 10px #ff69b4;
-    border-radius: 15px;
+    width: 80%; /* Set container width to 80% of viewport */
+    max-width: 1000px; /* Set max-width for container */
+    padding: 20px; /* Add padding inside the container */
+    background-color: #ffccff; /* Set background color to light pink */
+    box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
+    border-radius: 15px; /* Round the corners of the container */
 }
+
 .banner {
-    width: 100%;
-    height: auto;
-    display: block;
-    margin-bottom: 5px;
+    width: 100%; /* Set banner width to 100% of container */
+    height: auto; /* Auto height to maintain aspect ratio */
+    display: block; /* Block display to remove extra space */
+    margin-bottom: 5px; /* Margin below the banner */
 }
+
 .banner img {
-    width: 100%;
-    height: auto;
-    border-radius: 15px;
+    width: 100%; /* Set image width to 100% of banner */
+    height: auto; /* Auto height to maintain aspect ratio */
+    border-radius: 15px; /* Round the corners of the image */
 }
+
 .content-area {
-    display: flex;
-    width: 100%;
-    gap: 5px;
+    display: flex; /* Use flexbox for layout */
+    gap: 5px; /* Space between profile picture box and text container */
+    width: 100%; /* Set content-area width to 100% of container */
+    flex-wrap: wrap; /* Allow wrapping of elements */
 }
-.text-box {
-    width: 85%;
-    background-color: #cea6e9;
-    padding: 10px;
-    border: 5px dashed #ff69b4;
-    border-radius: 10px;
-}
+
 .profile-pic-box {
-    width: 15%;
-    min-width: 150px;
-    height: 200px;
-    background-color: #cea6e9;
-    padding: 10px;
-    border: 5px dashed #384eff;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
+    flex: 0 0 150px; /* Fixed width of 150px */
+    height: 200px; /* Fixed height */
+    background-color: #cea6e9; /* Set background color to light purple */
+    padding: 10px; /* Add padding inside the box */
+    border: 5px dashed #384eff; /* Dashed blue border */
+    border-radius: 10px; /* Round the corners of the border */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange children vertically */
+    align-items: center; /* Center align children horizontally */
+    justify-content: space-around; /* Distribute space evenly around children */
 }
+
 .profile-pic {
-    width: 100%;
-    height: 150px;
-    border-radius: 50%;
-    background-image: url('./Profile_Picture.webp');
-    background-size: cover;
-    background-position: center;
+    width: 100%; /* Set width to fill profile-pic-box */
+    height: 150px; /* Fixed height */
+    border-radius: 50%; /* Make the profile picture circular */
+    background-image: url('./Profile_Picture.webp'); /* Placeholder profile picture */
+    background-size: cover; /* Cover the entire area of the div */
+    background-position: center; /* Center the background image */
+}
+
+.text-container {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack text boxes vertically */
+    flex-grow: 1; /* Allow text container to grow and fill available space */
+    gap: 5px; /* Space between text boxes */
+}
+
+.text-box {
+    width: 100%; /* Set width to 100% of text container */
+    background-color: #cea6e9; /* Set background color to light purple */
+    padding: 10px; /* Add padding inside the text box */
+    border: 5px dashed #ff69b4; /* Dashed pink border */
+    border-radius: 10px; /* Round the corners of the border */
+    box-sizing: border-box; /* Include padding and border in the width */
 }
