@@ -8,8 +8,7 @@ body {
 }
 
 .container {
-    width: 80%; /* Set container width to 80% of viewport */
-    max-width: 1000px; /* Set max-width for container */
+    max-width: 800px; /* Set max-width for container */
     padding: 20px; /* Add padding inside the container */
     background-color: #ffccff; /* Set background color to light pink */
     box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
