@@ -16,17 +16,12 @@ body {
     background-color: #ffccff; /* Set background color to light pink */
     box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
     border-radius: 15px; /* Round the corners of the container */
-}
-
-.content-area {
     display: flex; /* Use flexbox for layout */
     gap: 5px; /* Space between profile picture box and text container */
-    width: 100%; /* Set content-area width to 100% of container */
-    flex-wrap: wrap; /* Allow wrapping of elements */
 }
 
 .profile-pic-box {
-    flex: 0 0 150px; /* Fixed width of 150px */
+    width: 150px;
     height: 200px; /* Fixed height */
     background-color: #cea6e9; /* Set background color to light purple */
     padding: 10px; /* Add padding inside the box */
@@ -56,6 +51,7 @@ body {
 
 .text-box {
     width: 100%; /* Set width to 100% of text container */
+    max-width: 815px;
     background-color: #cea6e9; /* Set background color to light purple */
     padding: 10px; /* Add padding inside the text box */
     border: 5px dashed #ff69b4; /* Dashed pink border */
