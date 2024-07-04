@@ -1,7 +1,7 @@
 /* Everything */
 body {
     background-color: #946eeb; /* Set the page background to purple */
-    font-family: 'Tahoma', sans-serif; /* Set font family to Tahoma */
+    font-family: "Rubik-Regular", sans-serif; /* Set font family to Tahoma */
     margin: 0; /* No margin for the body */
     padding: 0; /* No padding for the body */
     display: flex; /* Use flexbox for layout */
@@ -22,8 +22,19 @@ body {
 }
 
 .container h2 {
+    font-family: "Itim-Regular", sans-serif;
     text-align: center;
     margin-top: 0px;
+}
+
+@font-face {
+    font-family: "Itim-Regular"; 
+    src: url("./Itim-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Rubik-Regular"; 
+    src: url("./Rubik-Regular.ttf") format("truetype");
 }
 
 /* Left side container */
