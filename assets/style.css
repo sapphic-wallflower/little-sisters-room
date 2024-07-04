@@ -1,3 +1,4 @@
+/* Everything */
 body {
     background-color: #946eeb; /* Set the page background to purple */
     font-family: 'Tahoma', sans-serif; /* Set font family to Tahoma */
@@ -17,7 +18,14 @@ body {
     box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
     border-radius: 15px; /* Round the corners of the container */
     display: flex; /* Use flexbox for layout */
-    gap: 5px; /* Space between profile picture box and text container */
+    gap: 5px; /* Space between leftside-box and text container */
+}
+
+/* Left side container */
+.leftside-box {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack profile-pic-box and nav-box vertically */
+    gap: 5px; /* Space between profile-pic-box and nav-box */
 }
 
 .profile-pic-box {
@@ -42,6 +50,15 @@ body {
     background-position: center; /* Center the background image */
 }
 
+.nav-box {
+    width: 150px;
+    background-color: #cea6e9; /* Set background color to light purple */
+    padding: 10px; /* Add padding inside the box */
+    border: 5px dashed #384eff; /* Dashed pink border */
+    border-radius: 10px; /* Round the corners of the border */
+}
+
+/* Main text container */
 .text-container {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack text boxes vertically */
