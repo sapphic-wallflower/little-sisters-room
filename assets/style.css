@@ -21,6 +21,11 @@ body {
     gap: 5px; /* Space between leftside-box and text container */
 }
 
+.container h2 {
+    text-align: center;
+    margin-top: 0px;
+}
+
 /* Left side container */
 .leftside-box {
     display: flex; /* Use flexbox for layout */
