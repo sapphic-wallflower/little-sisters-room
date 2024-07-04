@@ -61,7 +61,7 @@ body {
     width: 100%; /* Set width to fill profile-pic-box */
     height: 150px; /* Fixed height */
     border-radius: 50%; /* Make the profile picture circular */
-    background-image: url('./Profile_Picture.webp'); /* Placeholder profile picture */
+    background-image: url('./Profile_Picture.png'); /* Profile picture */
     background-size: cover; /* Cover the entire area of the div */
     background-position: center; /* Center the background image */
 }
