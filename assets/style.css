@@ -8,6 +8,10 @@ body {
     justify-content: center; /* Center the container horizontally */
 }
 
+a:link, a:visited {
+    color: #2e5bff
+}
+
 .container {
     width: 100%;
     max-width: 1000px; /* Set max-width for container */
@@ -42,6 +46,10 @@ body {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack profile-pic-box and nav-box vertically */
     gap: 5px; /* Space between profile-pic-box and nav-box */
+}
+
+.leftside-box a {
+    text-decoration: none;
 }
 
 .profile-pic-box {
