@@ -99,3 +99,19 @@ a:link, a:visited {
     border-radius: 10px; /* Round the corners of the border */
     box-sizing: border-box; /* Include padding and border in the width */
 }
+
+/* Style specific for images in the second text-box in about.html */
+.text-box.social-media img {
+    display: inline-block;
+    margin: 0px 50px 25px 50px;
+    height: 50px;
+    width: 50px;
+}
+
+.text-box.social-media {
+    text-align: center;
+}
+
+.text-box.social-media a {
+    text-decoration: none;
+}
