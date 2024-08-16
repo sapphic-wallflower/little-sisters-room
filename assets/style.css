@@ -22,7 +22,7 @@ a:link, a:visited {
     box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
     border-radius: 15px; /* Round the corners of the container */
     display: flex; /* Use flexbox for layout */
-    gap: 5px; /* Space between leftside-box and text container */
+    gap: 5px; /* Space between pronav and text container */
 }
 
 .container h2 {
@@ -42,13 +42,13 @@ a:link, a:visited {
 }
 
 /* Left side container */
-.leftside-box {
+.pronav {
     display: flex; /* Use flexbox for layout */
     flex-direction: column; /* Stack profile-pic-box and nav-box vertically */
     gap: 5px; /* Space between profile-pic-box and nav-box */
 }
 
-.leftside-box a {
+.pronav a {
     text-decoration: none;
 }
 
