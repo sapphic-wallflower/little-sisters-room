@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <h2>Navigation</h2>
             <a href="/">🏠 Home</a><br>
             <a href="/diary">📓 Diary</a><br>
-            <a href="/reviews">🎮 Game Reviews</a><br>
+            <a href="/games/home">🎮 Game Reviews</a><br>
             <a href="/cookbook">🍳 Cookbook</a><br>
             <a href="/friends">💜 Friends</a><br>
             <a href="/projects">📂 Cool Projects</a><br>
