@@ -1,10 +1,10 @@
 /* Everything */
 body {
     background-color: #946eeb; /* Set the page background to purple */
-    font-family: "Rubik-Regular", sans-serif; /* Set font family to Tahoma */
-    margin: 0; /* No margin for the body */
-    padding: 0; /* No padding for the body */
-    display: flex; /* Use flexbox for layout */
+    font-family: "Rubik-Regular", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
     justify-content: center; /* Center the container horizontally */
 }
 
@@ -14,15 +14,15 @@ a:link, a:visited {
 
 .container {
     width: 100%;
-    max-width: 1000px; /* Set max-width for container */
-    height: 100%;
-    padding: 20px; /* Add padding inside the container */
-    margin: 20px; /* Add spacing around the container */
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
     background-color: #ffccff; /* Set background color to light pink */
-    box-shadow: 0px 0px 10px #ff69b4; /* Add pink shadow around the container */
-    border-radius: 15px; /* Round the corners of the container */
-    display: flex; /* Use flexbox for layout */
-    gap: 5px; /* Space between pronav and text container */
+    box-shadow: 0px 0px 10px #ff69b4;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; /* Stack the banner and content-wrapper vertically */
+    gap: 5px; /* Space between banner and content */
 }
 
 .container h2 {
@@ -39,6 +39,24 @@ a:link, a:visited {
 @font-face {
     font-family: "Rubik-Regular"; 
     src: url("./Rubik-Regular.ttf") format("truetype");
+}
+
+/* Banner */
+.banner {
+    width: 100%;
+    border-radius: 10px; /* Same rounded corners as the text-box */
+    overflow: hidden; /* Ensure the image fits within the rounded corners */
+}
+
+.banner img {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+}
+
+.content-wrapper {
+    display: flex; /* Align pronav and text-container side by side */
+    gap: 5px; /* Space between pronav and text-container */
+    width: 100%;
 }
 
 /* Left side container */
